@@ -1,0 +1,1570 @@
+/* === Global === */
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;1,400&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;1,100;1,200&display=swap');
+/*=== colors ==*/
+/*
+#47abd8;
+#1E1E21;
+#be3760;
+/*=== Colors === */
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "open sans", Arial, Helvetica, sans-serif;
+  background: #1e1e21;
+}
+
+.container {
+  width: 95%;
+  overflow: hidden;
+  padding-top: 30px;
+  margin: auto;
+}
+
+.wrapper{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+hr {
+  margin:10px 0;
+}
+
+ion-icon{
+  font-size: 20px;
+}
+
+/* === Header === */
+header {
+  min-height: 70%;
+  background: #1e1e21;
+}
+header nav a {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+header nav h1 {
+  text-transform: uppercase;
+  font-family: 'inter',sans-serif;
+}
+
+header nav li {
+  display: inline;
+  list-style: none;
+  padding: 10px;
+}
+header nav li a:hover {
+  color: #be3760;
+}
+
+header nav h1 {
+  color: #ffffff;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 800;
+}
+
+header nav button {
+  color: #ffffff;
+  font-size: 14px;
+  background-color: #be3760;
+  margin: 0;
+  padding: 11px 15px;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+  transition: 0.1s;
+  text-transform: uppercase;
+}
+
+header nav button:hover {
+  opacity: 0.9;
+  cursor: pointer;
+}
+header nav h1 a {
+  font-size: 30px;
+  cursor: pointer;
+
+}
+
+header nav h1 a span:hover {
+  color: #be3760;
+}
+span {
+  color: #be3760;
+}
+
+.current {
+  color: #be3760;
+}
+
+header .container nav label {
+  margin: 0 5px 0 0;
+  font-size: 26px;
+  line-height: 70px;
+  display: none;
+  width: 26px;
+  display: none;
+  color: #be3760;
+}
+#toggle {
+  display: none;
+}
+
+.member-responsive {
+  display: none;
+}
+/* === Footer ===*/
+footer {
+  margin-top: 5px;
+  padding: 20px 0;
+  color: #ffffff;
+  background-color: #1a1c1f;
+}
+
+footer ul li a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color:#ffffff;
+  line-height: 2.0;
+}
+
+footer li {
+  list-style: none;
+  
+}
+
+footer p{
+  text-align: center;
+  font-size:13px;
+}
+.footer-container {
+  width: 80%;
+  margin: auto;
+  display:flex;
+  justify-content: space-evenly;
+}
+
+.footer-container h1{
+  align-self: center;
+  text-transform: uppercase;
+  font-weight: 300;
+  margin-left:-50px
+}
+
+ footer .social li a  {
+  display: inline-block;
+  color:#ffffff;
+  margin-left:10px;
+  margin-top:5px;
+  margin-bottom: 8px;
+}
+
+.social ion-icon{
+  font-size:35px;
+}
+
+.copyright {
+  color:#808080;
+}
+/*=== Home page ===*/
+/*=== Call to Action ===*/
+
+.mobile-call-to-action{
+  display:none;
+}
+
+.call-to-action{
+  position: relative;
+  color:#ffffff;
+}
+
+.call-to-action img{
+  width:100%;
+  border-radius: 8px;
+}
+
+.home-text #motto{
+  position: absolute;
+  margin-top:-40%;
+  margin-left:40px;
+  font-size: 35px;
+}
+
+.home-text p{
+  position: absolute;
+  margin-top:-31.5%;
+  margin-left:65px;
+  font-size:16px;
+}
+
+.home-text a button{
+  position: absolute;
+  margin-top:-28%;
+  margin-left:16%;
+  background-color: #be3760;
+  border:none;
+  padding:12px 30px;
+  font-size: 18px;
+  border-radius: 5px;
+  color:#ffffff;
+  outline:none;
+}
+
+.home-text a button:hover{
+  cursor: pointer;
+  opacity:0.8
+}
+/*=== Showcase ===*/
+.showcase-1{
+  margin-top:5%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color:#ffffff;
+  border-radius: 8px;
+  line-height: 1.8;
+}
+
+.showcase-1 img{
+  margin-right:5%;
+  margin-bottom: 3%;
+  width:30%;
+}
+
+.showcase-text-1{
+  margin-left:3%;
+  text-align: center;
+}
+.showcase-1 h1{
+  font-family: 'ubuntu',sans-serif;
+}
+
+.showcase-1 a {
+  color:#be3760;
+  text-decoration: none;
+}
+.showcase-1 a:hover{
+  color:#ffffff;
+  text-decoration: underline;
+
+}
+
+/* === Showcase 2 ===*/
+
+.showcase-2{
+  margin-top:5%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color:#ffffff;
+  border-radius: 8px;
+  line-height: 1.8;
+}
+
+.showcase-2 img{
+  order:1;
+  margin-left:10%;
+  margin-bottom: 3%;
+  width:30%;
+}
+
+.showcase-text-2{
+  order:2;
+  margin-right:6%;
+  margin-bottom:10%;
+  text-align: center;
+}
+.showcase-2 h1{
+  font-family: 'ubuntu',sans-serif;
+}
+
+.showcase-2 a {
+  color:#be3760;
+  text-decoration: none;
+}
+.showcase-2 a:hover{
+  color:#ffffff;
+  text-decoration: underline;
+
+}
+
+/*=== Why Downhut? ===*/
+.features{
+  color:#ffffff;
+  text-align: center;
+
+}
+.features h1{
+  color:#ffffff;
+  margin:70px 0;
+  font-family: 'ubuntu',sans-serif;
+  font-size: 40px;
+  font-weight: 300;
+}
+
+.quality{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 5%;
+  margin-bottom:10%;
+}
+
+.property-text{
+  text-align: center;
+  margin-bottom:20px;
+}
+
+.property-text h3{
+  margin:12px 0;
+  text-align: center;
+  font-family: 'ubuntu',sans-serif;
+}
+
+.property-text p{
+  font-size:14px;
+  margin-bottom:5px;
+}
+
+.property-text a{
+  color:#be3760;
+  text-decoration: none;
+}
+.property-text a:hover{
+  text-decoration: underline;
+  color:#ffffff;
+}
+.property-wrapper{
+ margin-left:2%;
+}
+/*=== property 1 ===*/
+.property{
+  width:100px;
+  height:100px;
+  background-color: #282c32;
+  border-radius: 50%;
+  margin-left:35.7%;
+
+}
+
+.property img{
+  margin-top:22%;
+  width:60%;
+}
+/*=== property 2 ===*/
+.property-2{
+  width:100px;
+  height:100px;
+  background-color: #282c32;
+  border-radius: 50%;
+  align-content: center;
+  margin-left:35.7%;
+}
+
+.property-2 img{
+  margin-top:10%;
+  width:55%;
+}
+
+/*=== property 3 ===*/
+.property-3{
+  width:100px;
+  height:100px;
+  background-color: #282c32;
+  border-radius: 50%;
+  margin-left:32.5%;
+}
+
+.property-3 img{
+  margin-top:18%;
+  width:70%;
+}
+
+
+/*=== property 4 ===*/
+.property-4{
+  width:100px;
+  height:100px;
+  text-align: center;
+  background-color: #282c32;
+  border-radius: 50%;
+  margin-left:28%;
+}
+
+.property-4 img{
+  margin-top:17%;
+  width:65%;
+}
+
+/* ===CINEHUT ===*/
+.cinehut{
+text-align: center;
+color:#ffffff;
+line-height: 1.8;
+}
+.cinehut img{
+  width:85%;
+}
+.cinehut h1{
+  font-family: 'Montserrat', sans-serif;
+  font-size:40px;
+  margin-bottom:25px;
+  text-transform: uppercase;
+}
+
+.cinehut p{
+  font-size:18px;
+}
+
+.cinehut button{
+  background-color: #be3760;
+  border:none;
+  padding:12px 30px;
+  font-size: 18px;
+  border-radius: 5px;
+  color:#ffffff;
+  outline:none;
+  margin:20px 0;
+}
+
+.cinehut button:hover{
+  opacity:0.8;
+  cursor:pointer;
+}
+
+/*=== Beta badge ===*/
+
+
+div.badge {
+  background-color: #be3760;
+  border-radius: 5px;
+  color: #ffffff;
+  display: inline-block;
+  font-family: Arial, sans-serif;
+  font-size: 10px;
+  line-height: 10px;
+  padding: 4px 6px;
+  
+}
+/* === About page ===*/
+/*about section*/
+.about-container{
+  width:95%;
+  margin:auto;
+  color:#ffffff;
+
+}
+
+.about-section-1{
+  margin:5px;
+  display: flex;
+  background-color: #282c32;
+  border-radius: 8px;
+}
+.about-text-field{
+margin-left:25px;
+line-height: 1.8;
+margin-right:25px;
+}
+
+.about-text-field h1{
+font-family: 'Ubuntu', sans-serif;
+white-space: nowrap;
+margin-bottom: -3%;
+font-size:120px;
+text-transform: uppercase;
+}
+
+.about-text-field p{
+ font-size:16px;
+}
+
+.about-image-field-1 img{
+  width:90%;
+  margin-top:40%;
+  margin-left:15%;
+  
+}
+
+.learn-more{
+   background-color: #be3760;
+   border:none;
+   padding:12px 30px;
+   font-size: 16px;
+   border-radius: 5px;
+   margin-top:3%;
+   text-transform: uppercase;
+   color:#ffffff;
+}
+
+.learn-more:hover{
+  cursor: pointer;
+  opacity: 0.8;
+}
+
+/*===Investors section===*/
+.about-section-2{
+  margin-top:2%;
+  margin-bottom:5px;
+  margin-left:5px;
+  margin-right:5px;
+  background-color: #282c32;
+  border-radius:8px;
+  display:flex;
+  text-align: center;
+  justify-content: space-evenly;
+  
+}
+
+.about-section-2 h1{
+font-family: 'ubuntu', sans-serif;
+align-self: center;
+font-size: 30px;
+margin-bottom:3%;
+}
+.investor-info img{
+  margin-top:7%;
+  border:4px solid #ffffff;
+  width:190px;
+  border-radius:50%;
+}
+
+.investor-info h3{
+  margin:5%;
+}
+
+.investor-info p{
+  margin:3%;
+}
+/* ==== Hiring section ===*/
+.about-section-3{
+  display: flex;
+  align-items: center;
+  background-color: #282c32;
+  margin-top:2%;
+  margin-bottom:5px;
+  margin-left:5px;
+  margin-right:5px;
+  border-radius:8px;
+  
+}
+.hiring-text-field{
+  margin-left:15%;
+  margin-right:19%;
+}
+.hiring-text-field h1{
+ font-size:35px;
+ margin-top:5%;
+ font-family: 'ubuntu',sans-serif;
+}
+
+.hiring-button{
+  background-color: #be3760;
+  border:none;
+  padding:12px 30px;
+  font-size: 14px;
+  border-radius: 5px;
+  margin-top:3%;
+  margin-bottom: 5%;
+  outline: none;
+  text-transform: uppercase;
+  color:#ffffff;
+
+}
+.hiring-button:hover{
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+
+.hiring-text-field h4{
+  line-height: 2.0;
+  font-size:16px;
+  font-weight: 600;
+}
+
+.hiring-image-field img{
+width:45%;
+
+}
+
+
+/*=== Pricing page ===*/
+.plans-section {
+  margin-left: 10%;
+  margin-top: -5%;
+  margin-bottom: -2%;
+  display: flex;
+  width: 80%;
+  height: 90vh;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.plan-box {
+  text-align: center;
+  background: #282c32;
+  color: #ffffff;
+  line-height: 1.7;
+  margin-left: 15px;
+  margin-top:15px;
+  border-radius: 8px;
+  padding-top:20px;
+  width: 40%;
+  height: 80%;
+  transition: 0.6s;
+}
+
+.plan-box:hover {
+  -webkit-font-smoothing: antialiased;
+  transform: scale(1.05);
+  box-shadow: rgba(255 , 255, 255, 0.1) 0px 0px 10px 0px;
+  z-index: 2;
+}
+.plan-box h1 {
+  text-transform: uppercase;
+  font-size: 25pt;
+  margin: -5px;
+}
+
+.plan-box h2 {
+  text-transform: capitalize;
+  font-weight: 500;
+  margin-bottom: 5px;
+  margin-top: 15px;
+}
+
+.plan-box li {
+  margin: 1em 0;
+}
+
+.plan-box ul {
+  list-style: none;
+}
+
+.plan-box button {
+  padding: 15px 45px;
+  border: none;
+  color: #ffffff;
+  background: #be3760;
+  border-radius: 4px;
+  font-size: 12pt;
+  text-transform: capitalize;
+  outline: none;
+}
+
+.plan-box button:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
+/*=== Contact us page ===*/
+.form-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  margin: auto;
+  color: #ffffff;
+}
+.form-container form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.form-container textarea {
+  font-family: "open sans", Arial, Helvetica, sans-serif;
+  padding: 15px;
+  width: 78%;
+  resize: none;
+  line-height: 1.5;
+  margin: 15px 0;
+  font-size: 16px;
+  text-align: left;
+  outline: none;
+  border:2px solid #383e47;
+  background-color: transparent;
+  border-radius: 5px;
+}
+
+.form-container textarea:focus{
+border:2px solid #be3760;
+}
+
+.form-container form {
+  margin: 15px;
+}
+
+.form-container form input[type="text"],
+.form-container form input[type="email"] {
+  font-size: 16px;
+  padding-left: 15px;
+  font-weight: 400;
+  margin: 15px 0;
+  width: 80%;
+  height: 45px;
+  outline: none;
+  border:2px solid #383e47;
+  background-color: transparent;
+  border-radius: 5px;
+}
+
+.form-container form input[type="text"]::placeholder,
+.form-container form input[type="email"]::placeholder,
+.form-container textarea::placeholder{
+  color:#8C9494;
+}
+.form-container form input[type="text"]:focus, .form-container form input[type="email"]:focus{
+ border:2px solid #be3760;
+}
+
+ .form-container h1 {
+  text-transform: capitalize;
+  margin: 10px 0;
+  font-size: 30px;
+  font-weight: 400;
+}
+
+.form-container p {
+  margin: 10px 0;
+}
+
+.form-container form button[type="submit"] {
+  text-transform: uppercase;
+  width: 30%;
+  border: none;
+  margin-top: 10px;
+  margin-left: 5px;
+  padding: 12px 20px;
+  color: #ffffff;
+  background: #be3760;
+  cursor: pointer;
+}
+
+.contact_info {
+  line-height: 1.8;
+  margin-bottom: 60px;
+  margin-left: 30px;
+}
+
+.contact_info a {
+  color: #be3760;
+  text-decoration: none;
+}
+
+.contact_info h1 {
+  text-transform: capitalize;
+  margin: 10px 0;
+}
+
+.contact_info span {
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.contact_info p {
+  text-transform: capitalize;
+}
+/* === Team ==== */
+.team-section {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  height: 40%;
+  align-items: center;
+  margin: auto;
+  line-height: 1.5;
+  color: #ffffff;
+}
+
+.team-section h1 {
+  text-transform: uppercase;
+  font-size: 38pt;
+}
+
+.team-member-info {
+  display: flex;
+  width: 80%;
+  height: 30%;
+  border-radius: 200px;
+  padding: 25px;
+  margin: 10px;
+  background:#282c32;
+  margin-bottom: 25px;
+  box-shadow: rgba(190, 55, 96, 0.190) 0px 0px 10px 0px;
+
+  /*=== Animation ===*/
+  animation-delay: 0.3s;
+  animation-iteration-count: 1;
+  
+}
+
+.team-member-info img {
+  width: 20%;
+  height: 2%;
+  border-radius: 50%;
+  border:4px solid #f5f2f4;
+  margin-top:11px;
+  margin-left: 5px;
+
+}
+
+.team-member-info h2 , .team-member-info h3 {
+ text-transform: capitalize;
+ margin-top:-4px;
+}
+.team-member-info p {
+  margin-top:6px;
+
+}
+.team-member-desc{
+  margin-top:10px;
+  margin-left:25px;
+}
+
+/*=== Login ====*/
+
+.login-container{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  width:70%;
+  background-color: #1a1c1f;
+  border-radius: 15px;
+  margin: 15px 0;
+}
+.login-container h1{
+  margin: 25px 0;
+  font-size:30px;
+  font-weight:400;
+  text-transform: uppercase;
+}
+.img-field img{
+  width:85%;
+  margin-left:120px;
+}
+
+.login-form-field{
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  align-items: center;
+  color:#ffffff;
+  margin-left:50px;
+
+}
+
+.login-form-field form{
+  display: flex;
+  flex-direction: column;
+  padding:0 50px;
+  height:100%;
+  margin-left:10px;
+  margin-top: 15px;
+}
+
+.login-form-field img{
+  width:15%;
+  margin-left: 1%;
+}
+
+.login-form-field input[type=email], .login-form-field input[type=password]{
+padding:12px 6px;
+font-size:14px;
+width:200px;
+margin-right:4%;
+margin-bottom: 15px;
+border-radius: 2px;
+border:2px solid #383e47;
+outline: none;
+background:transparent;
+border-radius: 8px;
+caret-color: #be3760;
+color:#ffffff;
+}
+
+.login-form-field input[type=email]::placeholder, .login-form-field input[type=password]::placeholder{
+  color:#8C9494;
+}
+
+.login-form-field input[type=email]:focus , .login-form-field input[type=password]:focus{
+border:2px solid #be3760;
+}
+
+.login-form-field form label{
+  font-size: 12px;
+  margin-bottom:5px;
+}
+
+
+.login_btn2{
+   border: none;
+   align-self: center;
+   background-color: #be3760;
+   width:200px;
+   padding:10px 25px;
+   border-radius: 5px;
+   text-transform: uppercase;
+   margin-right: 3%;
+}
+
+.login_btn2:hover{
+  cursor: pointer;
+  opacity: 0.8;
+}
+
+#terms{
+  font-size: 10px;
+  margin-top: 10px;
+}
+
+.login-container label a {
+  color:#be3760;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+
+.login-form-field a{
+  margin-top:-10px;
+  margin-bottom: 8px;
+  color:#be3760;
+  font-size: 12px;
+  text-decoration: none;
+}
+
+.sign-up-btn{
+  width:200px;
+  border:2px solid #ffffff;
+  background:transparent;
+  color:#ffffff;
+  padding:10px 25px;
+  text-transform:capitalize;
+  
+}
+
+#new-account{
+  margin-top:90px;
+  margin-left:30px;
+  margin-bottom:15px;
+}
+
+#create_acc{
+  font-size: 18px;
+  font-weight: 600;
+}
+#create_acc:hover{
+  color:#ffffff;
+  cursor:pointer;
+}
+
+/* === Sign in field  === */
+.sign-up-container{
+  display: flex;
+  flex-direction: row;
+  width:70%;
+  background-color: #1a1c1f;
+  border-radius: 15px;
+  margin: 15px 0;
+  color:#ffffff;
+}
+
+
+.sign-up-form-field{ 
+  width:70%;
+  margin-left: 90px;
+
+  margin-top:15px;
+  margin-bottom: 15px;
+}
+
+.sign-up-form-field h1{
+  margin-left:31%;
+  margin-top:5%;
+  margin-bottom:4%;
+  font-size:30px;
+  font-weight:400;
+  text-transform: uppercase;
+}
+
+.sign-up-form-field p{
+  font-size:13px;
+  margin-left:8%;
+  margin-right:1%;
+  margin-bottom:5%;
+}
+
+.sign-up-form-field form{
+  display: flex;
+  flex-direction: column;
+
+}
+
+
+.sign-up-form-field input[type=email], .sign-up-form-field input[type=password],.sign-up-form-field input[type=text]{
+  padding:12px 6px;
+  font-size:14px;
+  width:200px;
+  margin-bottom: 15px;
+  border-radius: 2px;
+  border:2px solid #383e47;
+  outline: none;
+  background:transparent;
+  border-radius: 8px;
+  caret-color: #be3760;
+  color:#ffffff;
+  margin-left:14%;
+  }
+
+  .sign-up-form-field input[type=email]::placeholder, .sign-up-form-field input[type=password]::placeholder,.sign-up-form-field input[type=text]::placeholder{
+    color:#8C9494;
+  }
+  
+  .sign-up-form-field input[type=email]:focus , .sign-up-form-field input[type=password]:focus,.sign-up-form-field input[type=text]:focus{
+  border:2px solid #be3760;
+  }
+
+.sign-up-img-field img{
+  width:85%;
+  margin-left:50px;
+  margin-top:25%;
+}
+
+.sign-up-form-field form label{
+  font-size: 12px;
+  margin-bottom:5px;
+  margin-left:14%
+}
+
+
+.sign-up-container label a {
+  color:#be3760;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+
+.agree-to-terms, .lose-password{
+  display: block;
+  margin-left:15%;
+  margin-bottom: 1%;
+}
+
+.agree-to-terms input,.lose-password input{
+  margin-right:-10%;
+}
+
+.agree-to-terms label{
+
+  font-size:12px;
+}
+.sign-up-btn-2{
+  border: none;
+  align-self: center;
+  background-color: #be3760;
+  width:200px;
+  padding:10px 25px;
+  border-radius: 5px;
+  text-transform: uppercase;
+  margin-right: 3%;
+  margin-bottom: 3%;
+}
+
+.sign-up-btn-2:hover{
+ cursor: pointer;
+ opacity: 0.8;
+}
+
+#login-member{
+  font-size: 18px;
+  font-weight: 600;
+}
+#login-member:hover{
+  color:#ffffff;
+  cursor:pointer;
+}
+
+.got-account  {
+  display: block;
+  margin-left:16%;
+  text-transform: capitalize;
+
+}
+
+
+/* === Media Querry === */
+/* === Phone Size ===*/
+/* === Responsive Header === */
+@media only screen and (max-width: 500px) {
+  .container {
+    width: 95%;
+    margin: auto;
+    overflow: hidden;
+  }
+  nav {
+    display: inline;
+  }
+  .login_btn {
+    display: none;
+  }
+  .member-responsive {
+    display: block;
+  }
+
+  header .container nav label {
+    text-align: center;
+    display: block;
+    cursor: pointer;
+    float: right;
+    margin-top: -55px;
+  }
+
+  label:hover {
+    color: #ffffff;
+  }
+
+  .links {
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    display: none;
+  }
+  .links a {
+    display: block;
+    border-bottom: 1px solid #1e1e21;
+    margin: 0;
+  }
+  #toggle:checked + .links {
+    display: block;
+  }
+
+  header nav button {
+    display: none;
+  }
+
+/*=== Footer ===*/
+.footer-container{
+  flex-direction: row;
+  align-items:center ;
+}
+.footer-container h1{
+  display: none;
+}
+.footer-container {
+ margin-left:5px;
+}
+.footer-links{
+  margin-bottom: 70px;
+  margin-left:10px;
+  
+}
+
+.social{
+  margin-bottom: 40px;
+  margin-right:-75px;
+}
+.social ion-icon{
+  font-size:30px;
+}
+
+
+  /*=== Home page ===*/
+  .call-to-action{
+    display: none;
+  }
+
+  .mobile-call-to-action{
+    display:block;
+    color:#ffffff;
+    text-align: center;
+  }
+  
+  .mobile-call-to-action img{
+    width:100%;
+  }
+
+  .home-text-mobile #motto-mobile{
+     font-size: 25px;
+  }
+
+  .home-text-mobile p{
+    margin:10px 0;
+    font-size:14px;
+  }
+
+  .home-text-mobile a button{
+    background-color: #be3760;
+    border:none;
+    margin-top:15px;
+    margin-bottom: 15px;
+    margin-left:10px;
+    padding:12px 25px;
+    font-size: 16px;
+    border-radius: 5px;
+    color:#ffffff;
+  }
+
+  .home-text-mobile a button:hover{
+    opacity: 0.8;
+  }
+
+/* === showcase 1 ===*/
+  .showcase-1{
+    flex-direction: column;
+
+  }
+  
+  .showcase-1 img{
+    order:1;
+    margin-left:25px;
+    margin-bottom: 20px;
+    width:60%;
+
+  }
+  
+  .showcase-text-1{
+    order:2;
+    text-align: center;
+  }
+
+  
+  .showcase-1 a:hover{
+    color:#ffffff;
+    text-decoration: underline;
+  
+  }
+  
+  /* === showcase 2 ===*/
+
+.showcase-2{
+  margin-top:15%;
+  flex-direction: column;
+}
+
+.showcase-2 img{
+  margin-left:20px;
+  margin-bottom: 20px;
+  width:60%;
+
+}
+
+.showcase-text-2{
+margin-left: 9%;
+}
+
+/*=== Why Downhut? ===*/
+.features h1{
+margin-left:5%;
+}
+.quality{
+  flex-direction: column;
+  align-items: center;
+}
+.quality{
+  margin-left:5%
+}
+ .quality img{
+   color:#ffffff;
+ }
+
+ .property-text{
+   margin-bottom:20px;
+ }
+
+ .cinehut img{
+   width:100%;
+ }
+ 
+ .cinehut p{
+   margin-top:5px;
+   margin-bottom:25px;
+ }
+  /* === About page === */
+/* === First section === */
+.about-text-field{
+  line-height: 1.8;
+}
+.about-text-field h1{
+font-size: 75px;
+}
+
+.about-image-field-1 img{
+  display: none;
+}
+
+.learn-more{
+  border:none;
+  padding:10px 13px;
+  font-size: 14px;
+  border-radius: 5px;
+  margin-bottom:2%;
+  margin-left: 32%;
+  text-transform: uppercase;
+}
+ /* === Second section === */
+.about-section-2{
+  flex-direction: column;
+}
+
+.about-section-2 h1{
+  margin-top:5%;
+  margin-bottom:-3%;
+}
+
+/*=== Third section ===*/
+.about-section-3{
+  flex-direction: column;
+
+}
+.hiring-text-field{
+  order:2;
+  text-align: center;
+}
+.hiring-image-field img{
+  order:1;
+  margin-left: 26%;
+}
+
+.hiring-button{
+  margin-left: 7%;
+}
+  /* === Pricing ===*/
+  .plans-section {
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    width: 80%;
+    height: auto;
+  }
+
+  .plan-box {
+    line-height: 1.7;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    width: 100%;
+    height: 70vh;
+  }
+
+  .plan-box:hover{
+   transform:scale(1.0);
+   box-shadow: rgba(255 , 255, 255) 0px 0px 10px 0px;
+  }
+  /* === contact us ===*/
+  .form-container {
+    flex-direction: column;
+    
+  }
+
+
+  form {
+    text-align: center;
+  }
+
+  form input[type="email"],
+  form input[type="text"],
+  textarea {
+    align-self: center;
+    
+  }
+  
+  form input[type="email"],
+  form input[type="text"] {
+    width: 82%;
+  }
+
+  form button[type="submit"] {
+    padding: 13px 25px;
+    font-size: 18px;
+    align-self: center;
+  }
+
+  form button[type="submit"]:hover {
+    cursor: pointer;
+    opacity: 0.8;
+  }
+
+  .contact_info {
+    line-height: 1.8;
+    margin-bottom: 25px;
+  }
+  .contact_info h1 {
+    margin-top: 15px;
+    margin-bottom: 5px;
+  }
+  /* === Team ====*/
+  .team-section {
+    width: 100%;
+    height: 40%;
+  }
+  .team-section h1 {
+    font-size: 24pt;
+    
+  }
+  .team-member-info {
+    border-radius: 0;
+    width: 100%;
+    height: 50%;
+    padding: 12px;
+  }
+  
+  .team-member-info h2, .team-member-info h3{
+    margin-top:-3px;
+  }
+
+  .team-member-info p{
+    margin-bottom:-5px;
+  }
+
+  .team-member-info img {
+    margin-top:50px;
+    border-radius:0;
+    width: 40%;
+    height: 25%;
+  }
+
+  /*=== Login page ===*/
+
+  /*===Login ===*/
+  .img-field img{
+    display: none;
+  }
+  
+  .login-container{
+    width:100%;
+
+  
+  }
+  
+  .login-container h1{
+    margin-right: 9%;;
+  }
+  
+  .login-form-field form{
+    align-items: center;
+  }
+  .login-form-field img{
+    margin-right:9.5%;
+  }
+  
+  .login-form-field form input[type=email]{
+    margin-right:17%;
+  }
+  .login-form-field form input[type=password]{
+    margin-right:17%;
+  }
+  
+  .login-form-field form label[for=femail]{
+    margin-right:22%;
+  }
+   
+  .login-form-field form label[for=fpassword]{
+    margin-right:22%;
+  }
+
+  #forgot-password{
+   margin-right:22%;
+  }
+   
+  .login_btn2{
+    margin-right:22%;
+  }
+ #terms{
+   margin-right: 6%;
+ }
+#new-account{
+  text-align:center;
+  margin-right:16%;
+  margin-top:20px;
+}
+/*=== Sign up ===*/
+.sign-up-img-field img{
+  display:none;
+}
+.sign-up-container{
+  width:90%;
+}
+.sign-up-form-field h1{
+  margin-left:25%;
+}
+.sign-up-form-field p{
+  margin-right:15%;
+  margin-left:10%
+
+}
+.sign-up-form-field input[type=text],.sign-up-form-field input[type=password],.sign-up-form-field input[type=email]{
+  margin-left:-10%;
+  align-self: center;
+}
+
+.sign-up-form-field form label[for=fmail],.sign-up-form-field form label[for=fname] {
+  margin-right:25%;
+}
+.sign-up-form-field form label[for="fpassword"]{
+  margin-right:26%;
+}
+.agree-to-terms{
+  margin-left:-14%;
+}
+.lose-password{
+margin-left:-5%;
+}
+.sign-up-btn-2{
+  margin-top:3%;
+  margin-bottom: 3%;
+  margin-left:-8.5%;
+  
+}
+.got-account{
+  margin-left:10%;
+}
+}
+
+/*=== Browser half size ===*/
+@media only screen and (max-width:900px){
+ 
+.home-text #motto{
+  margin-left: 15px;
+  font-size: 24px;
+}
+.home-text p{
+  margin-left:30px ;
+  font-size:12px;
+  margin-top:-30.5%;
+}
+.home-text a button{
+  margin-top:-25%;
+  margin-left:17%;
+  font-size: 16px;
+}
+
+}
+
+
+@media only screen and (max-width:1250px){
+  .home-text #motto{
+    margin-left: 25px;
+    font-size: 28px;
+  }
+  .home-text p{
+    margin-left:50px ;
+    font-size:12px;
+    margin-top:-30.5%;
+  }
+  .home-text a button{
+    margin-top:-26%;
+    margin-left:17%;
+    font-size: 16px;
+  }
+  }
